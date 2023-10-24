@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haldiram</title>
+    <style>
+        body{
+            background-image: url(Chole\ Bhtura.webp);
+            width: 100%;
+            color: white;
+        }
+        .section1{
+            margin: 25px;
+        }
+        .container{
+            height: 300px;
+            width: 325px;
+            background-color: coral;
+            color: white;
+            border-radius: 3%;
+        }
+        .input{
+            margin: 20px;
+            width: 250px;
+            height: 75px;
+            font-size: large;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            background-color: red;
+            color: white;
+        }
+        .h1{
+            background-color: red;
+            color: white;
+        }
+        .h2{
+            color: cyan;
+        }
+        h3{
+            color: blue;
+        }
+        p{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="section1"><img src="Haldiram.png" alt="">
+        <div class="login"><h1 class="h2">Customer login</h1><h3>Registered Customers</h3><p>If you have an account, sign in with your email address.</p></div>
+        <div class="container">
+            <input type="text" placeholder="E-mail" class="input">
+            <input type="text"placeholder="Password" class="input">
+        </div>
+    </div>
+    <hr>
+    <h1 class="h1">Welcome to Haldiram's Menu</h1>
+    <table border="10" style="background-color: darkorange; color: white;">
+        <tr>
+            <th>Food Item</th>
+            <th>Food Rate</th>
+        </tr>
+        <tr>
+            <td>Idli Sambhar</td>
+            <td>Rs.130</td>
+        </tr>
+        <tr>
+            <td>Plain Dosa</td>
+            <td>Rs.190</td>
+        </tr>
+        <tr>
+            <td>Rawa Plain Dosa</td>
+            <td>Rs.190</td>
+        </tr>
+        <tr>
+            <td>Onion Rawa Plain Dosa</td>
+            <td>Rs.210</td>
+        </tr>
+        <tr>
+            <td>Masala Dosa</td>
+            <td>Rs.214</td>
+        </tr>
+        <tr>
+            <td>Rawa Masala Dosa</td>
+            <td>RS.214</td>
+        </tr>
+        <tr>
+            <td>Speacial Masala Dosa</td>
+            <td>Rs.220</td>
+        </tr>
+        <tr>
+            <td>Onion Rawa Masala Dosa</td>
+            <td>Rs.226</td>
+        </tr>
+        <tr>
+            <td>Uttapam (Mix Veg./Onion/Tomato)</td>
+            <td>Rs.226</td>
+        </tr>
+        <tr>
+            <td>South Indian Platter</td>
+            <td>Rs.336</td>
+        </tr>
+    </table>
+    <hr>
+    <h1 class="h1">Welcome To Haldiram's Technology Laboratory</h1>
+    <ol>
+        <li>Information
+            <ul>
+                <li>Wormhole</li>
+                <li>Science</li>
+                <li>DNA</li>
+            </ul>
+        </li>
+        <li>Reference
+            <ul>
+                <li>Google</li>
+                <li>Wikipedia</li>
+                <li>Dictionary</li>
+            </ul>
+        </li>
+        <li>Web Development 
+            <ul>
+                <li>XHTML/CSS
+                    <ul>
+                        <li>W3.schools</li>
+                        <li>HtmlHelp</li>
+                        <li>CSS Zen Garden</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Programming <ul>
+            <li>JavaScript.com</li>
+            <li>PHP.net</li>
+            <li>Mysl.com</li>
+        </ul></li>
+    </ol>
+    <hr>
+    <h1 class="h1">Welcome to Haldiram's Learning Center where we teach how to Merge Cells in a Table</h1>
+    <table border="10" style="background-color: gold; color: white;">
+        <tr>
+            <th colspan="2">Marks of the Exams for Manvik</th>
+        </tr>
+        <tr>
+            <td>Marks Obtained</td>
+            <td>Subject</td>
+        </tr>
+        <tr>
+            <td rowspan="5">25/25</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>Social Science</td>
+        </tr>
+        <tr>
+            <td>General Knowledge</td>
+        </tr>
+        <tr>
+            <td>French</td>
+        </tr>
+        <tr>
+            <td rowspan="3">24.5/25</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>Computers/Informatics</td>
+        </tr>
+    </table>
+    <hr>
+    <h1 class="h1">Welcome to Haldiram's Airplane Boarding Ticket Counter</h1>
+    <form>
+        <input type="text" placeholder="First Name">
+        <br><br>
+        <input type="text" placeholder="Last Name">
+        <br><br>
+        <input type="text" placeholder="Gender">
+        <br><br>
+        <input type="text" placeholder="Age">
+        <br><br>
+        <input type="text" placeholder="Place of Departure">
+        <br><br>
+        <input type="text" placeholder="Place of Arrival">
+        <br><br>
+        <input type="text" placeholder="Mobile Number">
+        <br><br>
+        <input type="text" placeholder="E-mail Id">
+        <br><br>
+        <button><h2>Submit</h2></button>
+    </form>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+</body>
+</html>
